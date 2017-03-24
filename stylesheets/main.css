@@ -1,0 +1,84 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+body {
+    background-image: url("http://www.mrwallpaper.com/wallpapers/dragonball-z.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: white;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+#cover {
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+
+#navigation-bar-container {
+    width: 98%;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: #00091a;
+}
+
+@media (min-width: 768px) {
+    #navigation-bar-container {
+        width: 70%;
+    }
+}
+
+#navigation-bar-container a {
+    color: #fcfd7d;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+#navigation-bar-container a:hover {
+    background-color: white;
+    color: #00091a;
+}
+
+#navbar ul {
+    margin-right: 10px;
+}
+
+.icon-bar {
+    background-color: #fff;
+}
+
+
+#center-content {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#footer-content {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#footer-content a {
+    color: #fcfd7d;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+#footer-content a:hover {
+    color: #fff;
+}
